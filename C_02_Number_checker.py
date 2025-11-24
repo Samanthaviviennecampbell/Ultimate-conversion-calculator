@@ -18,10 +18,7 @@ def num_check(question):
         except ValueError:
             print(error)
 
-# Main Routine Goes Here
-while True:
-    to_factor = num_check("To factor: ")
-    print("You chose to factor", to_factor)
-
-    if to_factor == "xxx":
-        break
+# Main routine goes here
+for item in range(0, 2):
+    number = num_check("Number: ")
+    print(number)
